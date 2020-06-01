@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './M_Dot1.png'
 import './css/main.css';
-import './App.css'
+import './css/App.css'
 
 function App() {
   // const renderTile = tile => {
