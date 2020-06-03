@@ -1,10 +1,13 @@
 import React from 'react';
-import Dot from '../M_Dot1.png';
+import Dot from '../assets/M_Dot1.png';
+import '../css/App.css';
 
 const Tile = () => {
     return (
         <div>
-            <p className='bg-blue-200'><img src={Dot} alt='Dot1'></img>tile</p>
+            <div className='tile'>
+                <img src={Dot} alt='Dot1'></img>
+            </div>
         </div>
     );
 }
