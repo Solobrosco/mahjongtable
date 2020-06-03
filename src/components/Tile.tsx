@@ -4,7 +4,7 @@ import Dot from '../M_Dot1.png';
 const Tile = () => {
     return (
         <div>
-            <p className='bg-blue-200 br-2'><img src={Dot} alt='Dot1'></img>tile</p>
+            <p className='bg-blue-200'><img src={Dot} alt='Dot1'></img>tile</p>
         </div>
     );
 }
