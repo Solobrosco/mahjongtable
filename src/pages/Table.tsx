@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/App.css';
-import Player from '../components/Player';
+import Player from '../features/player/Player';
 import Tile from '../components/Tile';
 
 function Table(){
