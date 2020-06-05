@@ -1,11 +1,12 @@
 const initialState = {
     position: [0,0],
+    gameState: 'East Turn',
 }
 
-const playerReducer = (state=initialState, action) => {
-    switch(action.type) {
+const playerReducer = (state=initialState) => {
+    switch(true) {
         default: 
-            return state
+            return state;
     }
 }
 
