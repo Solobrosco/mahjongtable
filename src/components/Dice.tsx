@@ -5,13 +5,19 @@ import React from 'react';
 // function random(){
 //     return();
 // }
-const Die = () => {
+interface DieProps {
+    numberOfDice: null,
+    rolls: [],
+    rollSum: []
+}
+
+const Dice = (props: DieProps) => {
     return(
         // <div>
         //     <ReactDice size={6} />
         // </div>
-        <div></div>
+    <div>{props}</div>
     );
 }
 
-export default Die;
+export default Dice;
