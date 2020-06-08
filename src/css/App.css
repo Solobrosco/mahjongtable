@@ -24,9 +24,19 @@
   color: white;
 }
 
+.table {
+  background: -webkit-radial-gradient(circle,#299020,#075800);
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .tile {
-  width: 25vmin;
-  height: 25vmin;
+  width: 5px;
+  height: 5px;
   border-radius: 3vmin;
   background-color: #ffffe6;
 }

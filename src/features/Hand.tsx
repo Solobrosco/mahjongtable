@@ -1,9 +1,12 @@
 import React from 'react';
+import Tile from '../components/Tile';
 
 const Hand = () => {
     return(
-        <div className='bg-blue-200'>
-            PlayerHand East
+        <div>
+
+            <Tile />
+
         </div>
     );
 }

@@ -9,10 +9,10 @@ import PlayerFunction from '../features/player/functions/Calls';
 
 function Play(){
     return(
-        <div className="bg-blue-200">
-            {/* <Tile />
-            <Player /> */}
-            <Table />
+        <div className="App">
+            <div className='table'>
+                <Table />
+            </div>
             <PlayersHand />
             <PlayerFunction />
         </div>

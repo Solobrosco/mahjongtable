@@ -7,6 +7,8 @@ import {
   Route
 } from "react-router-dom";
 import { connect } from 'react-redux'
+// import {getGameState, GAME_STATE_PAUSED} from './config/gameState'
+
 
 function App() {
   return (
@@ -21,6 +23,14 @@ function App() {
       </Switch>
     </Router>
   );
-}
+  }
+
+// const mapStateToProps = (state) => ({
+//   game: getGameState(state) !== GAME_STATE_PAUSED 
+// })
+
+// const mapDispatchToProps = (dispatch) => ({
+
+// })
 
 export default connect()(App);  
