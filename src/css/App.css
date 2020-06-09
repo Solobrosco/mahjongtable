@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 25vmin;
+  /* height: 25vmin; */
   pointer-events: none;
 }
 
@@ -25,18 +25,17 @@
 }
 
 .table {
-  background: -webkit-radial-gradient(circle,#299020,#075800);
-  width: 500px;
+  background: blue;
+  width: 1500px;
   height: 500px;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .tile {
-  width: 5px;
-  height: 5px;
+  width: 256px;
+  height: 246px;
   border-radius: 3vmin;
   background-color: #ffffe6;
 }

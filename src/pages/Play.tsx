@@ -9,8 +9,8 @@ import PlayerFunction from '../features/player/functions/Calls';
 
 function Play(){
     return(
-        <div className="App">
-            <div className='table'>
+        <div className="App-header">
+            <div className='flex justify-center my-3'>
                 <Table />
             </div>
             <PlayersHand />

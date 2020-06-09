@@ -1,12 +1,9 @@
 import React from 'react';
-import Tile from '../components/Tile';
+// import Tile from '../components/Tile';
 
 const Hand = () => {
     return(
-        <div>
-
-            <Tile />
-
+        <div className="static">
         </div>
     );
 }

@@ -4,14 +4,14 @@ import '../css/main.css';
 import '../css/App.css';
 import {Link} from 'react-router-dom'; 
 
-import Table from './Play';
+import Play from './Play';
 
 const play = () => {
     console.log('clicked');
     return(
         <div>
             <Link to="/play">
-                <Table />
+                <Play />
             </Link>
         </div>
     );
