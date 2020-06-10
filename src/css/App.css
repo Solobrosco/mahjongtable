@@ -7,10 +7,24 @@
   pointer-events: none;
 }
 
+.focus:hover {
+  transform: scale(5, 5);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 10s linear;
+    animation: App-logo-spin infinite 20s ease;
   }
+  .Tile-logo {
+    animation: tile-logo-float infinite 10s ease;
+  }
+  .floating {
+    animation: floating infinite 5s ease;
+  }
+}
+
+h1 {
+  text-shadow: 2px 2px 5px black;
 }
 
 .App-header {
@@ -38,6 +52,7 @@
   height: 246px;
   border-radius: 3vmin;
   background-color: #ffffe6;
+  box-shadow: 1px 1px 2px black;
 }
 
 .App-link {
@@ -45,10 +60,37 @@
 }
 
 @keyframes App-logo-spin {
-  from {
+  0%{
     transform: rotate(0deg);
   }
-  to {
+  50%{
     transform: rotate(360deg);
   }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes tile-logo-float {
+  0%{
+    transform: scale(1, 1);
+  }
+  50%{
+    transform: scale(1.05, 1.05);
+  }
+  100%{
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes floating {
+  from{ 
+    transform: translate(0,  0px); 
+  }
+  65%{
+    transform: translate(0, 7px);
+  }
+  to{
+    transform: translate(0, -0px); 
+  }    
 }
