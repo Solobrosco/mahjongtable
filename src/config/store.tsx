@@ -1,10 +1,14 @@
 import {createStore, combineReducers, compose} from 'redux';
-import playerReducer from '../features/player/reducer';
+// Import all reducers
+// import playerReducer from '../features/player/reducer';
+import loggedIn from './reducers/loggedIn';
 
+// Combine all the imported reducers into one
 const rootReducer = combineReducers({
-    player: playerReducer
+    isLogged: loggedIn
 })
 
+// Compose root
 const store = createStore(
     rootReducer,
     compose(
