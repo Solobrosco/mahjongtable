@@ -1,19 +1,22 @@
 import React from 'react';
 import '../css/App.css';
-// import Player from '../features/player/Player';
-// import Tile from '../components/Tile';
-import PlayersHand from '../features/Hand';
+import PlayersHand from '../components/Hand';
 import Table from '../components/Table';
 import PlayerFunction from '../features/player/functions/Calls';
-// import Dice from '../componentsCDice';
+// import {useSelector} from 'react-redux';
+import Dice from '../components/Dice';
 
 function Play(){
+    // const gamestate = useSelector(state=>false);
+    let h : Array<number> = [1,3,4,5];
+    let r : Array<number> = [3,5,7];
     return(
         <div className="App-header">
-            <div className='flex justify-center my-3'>
+            <Dice/>
+            <div className='flex'>
                 <Table />
             </div>
-            <PlayersHand />
+            <PlayersHand hand={h} revealed={r}/>
             <PlayerFunction />
         </div>
     );
