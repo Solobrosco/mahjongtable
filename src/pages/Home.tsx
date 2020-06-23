@@ -29,11 +29,11 @@ function Home() {
   return (
     <div className="App">
       <header className='App-header'>
-        <h1 className="floating font-mono text-6xl text-white py-10">Mahjong Online!</h1>
-        <div className='floating Tile-logo tile'>
+        <h1 className="font-mono text-6xl text-white py-10">Mahjong Online!</h1>
+        <div className='Tile-logo tile'>
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <div className='floating py-10'>
+        <div className='py-10'>
             <Link to={'/play'}>
                 <button className="shadow-lg font-mono text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={play}>
                     Play!
