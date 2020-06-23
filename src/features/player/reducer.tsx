@@ -1,6 +1,5 @@
 const initialState = {
-    position: [0,0],
-    gameState: 'East Turn',
+    gameState: 'Home'
 }
 
 const playerReducer = (state=initialState) => {
