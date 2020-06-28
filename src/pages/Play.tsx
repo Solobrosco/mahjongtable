@@ -11,7 +11,6 @@ import Grid from '@material-ui/core/Grid';
 function Play(){
     // const gamestate = useSelector(state=>false);
     let h : Array<number> = [1,3,4,5];
-    let r : Array<number> = [3,5,7];
     return(
         <div className="App-header">
             <div className='w-auto flex bg-blue-900 p-5 justify-center items-center'>
@@ -19,7 +18,7 @@ function Play(){
                     <Grid>
                         <Table />
                         <div className="pt-5">
-                            <PlayersHand hand={h} revealed={r}/>
+                            <PlayersHand hand={h}/>
                         </div>
                         <PlayerFunction />
                     </Grid>
