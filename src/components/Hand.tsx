@@ -8,10 +8,10 @@ type HandProps = {
 
 const Hand = (props: HandProps) => {
     return(
-        <div>
-            hand {props.hand}
-            <br/>
-            revealed {props.revealed}
+        <div className="playarea flex container mx-auto bg-blue-700 w-auto">
+            {props.hand}
+            <br></br>
+            {props.revealed}
         </div>
     );
 }
