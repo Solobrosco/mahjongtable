@@ -6,7 +6,7 @@ import tileSprite from '../assets/mahjong_tiles_spritesheet.png';
 
 const Tile = () => {
     return (
-        <div 
+        <div className='tile'
             style={{
                 position: 'relative',
                 backgroundImage: `url('${tileSprite}')`,
