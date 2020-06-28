@@ -15,14 +15,14 @@ let callKong = () => {
 
 const Calls = () => {
     return(
-        <div>
-            <button onClick={callShang} className="shadow-md font-mono text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <div className='flex justify-between items-center pt-5 bg-blue-800'>
+            <button onClick={callShang} className="w-1/2 shadow-md font-mono text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
                 Shang!
             </button>
-            <button onClick={callPong} className="shadow-md font-mono text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <button onClick={callPong} className="w-1/2 shadow-md font-mono text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
                 Pong!
             </button>
-            <button onClick={callKong} className="shadow-md font-mono text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <button onClick={callKong} className="w-1/2 shadow-md font-mono text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
                 Kong!
             </button>
         </div>
