@@ -9,39 +9,30 @@ type TableProps = {
 
 const Table = (props: TableProps) => {
     return(
-        <div className='flex-column justify-center container mx-auto bg-blue-800 p-5'>
-            <div className='southRevealed text-base text-center px-5 bg-blue-500'>
+        <div className='flex-column justify-center container mx-auto bg-blue-800'>
+            <div className='southRevealed text-center bg-blue-500'>
                 south
                 <div className="bg-blue-400">
-                    hand
-                </div>
-                <div className="bg-blue-400">
                     reveal
                 </div>
             </div>
-            <div className='westRevealed text-base text-center px-5 bg-blue-500'>
+            <div className='westReveale text-center bg-blue-500'>
                 west
                 <div className="bg-blue-400">
-                    hand
-                </div>
-                <div className="bg-blue-400">
                     reveal
                 </div>
             </div>
-            <div className='northRevealed text-base text-center px-5 bg-blue-500'>
+            <div className='northRevealed text-center bg-blue-500'>
                 north
                 <div className="bg-blue-400">
-                    hand
-                </div>
-                <div className="bg-blue-400">
                     reveal
                 </div>
             </div>
-            <div className='thrown text-base justify-center px-5 bg-blue-500'>
+            <div className='thrown justify-center p-5 bg-blue-500'>
                 <Tile />
             </div>
             {/* <Dice /> */}
-            <div className='revealed text-base text-center px-5 bg-blue-500'>
+            <div className='revealed text-center bg-blue-400'>
                 revealed
             </div>
         </div>

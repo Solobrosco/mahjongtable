@@ -15,7 +15,7 @@ let callKong = () => {
 
 const Calls = () => {
     return(
-        <div className='flex justify-between items-center pt-5 bg-blue-800'>
+        <div className='flex justify-between items-center pt-5 bg-blue-900'>
             <button onClick={callShang} className="w-1/2 shadow-md font-mono text-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
                 Shang!
             </button>
