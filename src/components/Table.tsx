@@ -29,7 +29,6 @@ const Table = (props: TableProps) => {
                 </div>
             </div>
             <div className='thrown justify-center p-5 bg-blue-500'>
-                <Tile />
             </div>
             {/* <Dice /> */}
             <div className='revealed text-center bg-blue-400'>

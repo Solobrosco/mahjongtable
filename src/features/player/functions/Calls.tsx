@@ -1,4 +1,5 @@
 import React from 'react';
+import {connect} from 'react-redux';
 
 let callShang = () => {
     // check player hand, check if recent player is North, and recent thrown for shang 
@@ -29,4 +30,18 @@ const Calls = () => {
     );
 }
 
-export default Calls;
+// const mapStateToProps = (state) => {
+//     return {
+
+//     }
+// }
+
+// const mapDispatchToProps = (dispatch) => {   
+//     return {
+//         callShang: () => dispatch({type: "CALL_SHANG"}),
+//         callPong: () => dispatch({type: "CALL_PONG"}),
+//         callKong: () => dispatch({type: "CALL_KONG"})
+//     }
+// }
+
+export default connect()(Calls);

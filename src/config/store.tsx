@@ -3,11 +3,13 @@ import {createStore, combineReducers, compose} from 'redux';
 // import playerReducer from '../features/player/reducer';
 import loggedIn from './reducers/loggedIn';
 import gameStateReducer from './reducers/gameState';
+import mahjongStateReducer from './reducers/mahjongState';
 
 // Combine all the imported reducers into one
 const rootReducer = combineReducers({
     isLogged: loggedIn,
-    gameState: gameStateReducer
+    gameState: gameStateReducer,
+    mahjongState: mahjongStateReducer
 })
 
 // Compose root
